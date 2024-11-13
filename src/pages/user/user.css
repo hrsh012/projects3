@@ -1,0 +1,193 @@
+.work-info-section {
+
+    display: block;
+
+}
+
+.work-info-main {
+    /* min-height: 1000px !important; */
+    background: white;
+}
+
+.work-info-section .work-info-text {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.work-info-section .work-info-text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.work-info-section .work-info-text span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.work-info-section .performance-sec {
+    padding: 16px;
+}
+
+.work-info-section .performance-sec span {
+    font-family: "Space Grotesk", serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40.92px;
+    color: #0E2040;
+}
+
+.work-info-section .performance-sec .chart-image {
+    height: 470px;
+    background: #ffff;
+    padding: 26px;
+    border-radius: 42px;
+    margin-top: 20px;
+}
+
+.work-info-section .performance-sec .sec-image {
+    /* height: 470px;
+    background: #ffff;
+    padding: 26px;
+    border-radius: 42px;
+    margin-top: 20px; */
+    margin-top: 20px;
+}
+
+.work-info-section .performance-sec .chart-image img {
+    /* background: #ffff;
+    padding: 16px;
+    border-radius: 42px;
+    margin-top: 20px; */
+}
+
+.performance-sec .card {
+    border-radius: 45px;
+    /* padding: 16px; */
+}
+
+.performance-sec .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.performance-sec .card .dropdown button {
+    background: #238899;
+    color: white;
+}
+
+.performance-sec .card-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.performance-sec .card-title {
+    margin: 0;
+}
+
+.performance-sec .card-title-container .image-andtext {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.performance-sec .card-title-container .image-andtext span {
+    margin-left: 8px;
+}
+
+.performance-sec .card .red-product {
+    width: 10px;
+    height: 10px;
+    background: #D32C20;
+    /* margin-left: 20px; */
+    border-radius: 50%;
+    margin-top: 14px;
+}
+
+.performance-sec .card .orange-product {
+    width: 10px;
+    height: 10px;
+    background: #F3722C;
+    /* margin-left: 20px; */
+    border-radius: 50%;
+    margin-top: 14px;
+}
+
+.performance-sec .card .yellow-product {
+    width: 10px;
+    height: 10px;
+    background: #F9C74F;
+    /* margin-left: 20px; */
+    border-radius: 50%;
+    margin-top: 14px;
+}
+
+.performance-sec .card .green-product {
+    width: 10px;
+    height: 10px;
+    background: #90BE6D;
+    /* margin-left: 20px; */
+    border-radius: 50%;
+    margin-top: 14px;
+}
+
+.performance-sec .card .product1 {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.work-info-section .performance-sec .table {
+    background: #ffff;
+    margin-top: 30px;
+    padding: 16px;
+    border-radius: 20px;
+
+}
+
+
+.work-info-section.performance-sec.table .main span {
+    background: #EBF9F1;
+    color: #1F9254;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 6px;
+}
+
+.work-info-section .performance-sec .table .main a {
+    color: #1F9254;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background: #EBF9F1 !important;
+}
+
+.work-info-section .performance-sec .table .timer b {
+
+    background: #4BA6651C;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4BA665;
+    border-radius: 15px;
+    margin-right: 80px;
+  
+}
+
+.work-info-section .performance-sec .table .timer img {
+    width: 57px;
+    height: auto;
+
+    margin-right: 50px;
+}
+
+.work-info-section .project-detail .table .timer var {
+    /* margin-left: 30px; */
+}

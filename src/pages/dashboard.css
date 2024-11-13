@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+     background: #F0F6FF;
+}
+
+.header .input-form input {
+     min-width: 417px;
+     border: 1px solid #9A93B3;
+     outline: none;
+     width: 100%;
+}
+
+.header .profile-text span {
+     font-weight: 400;
+     font-family: "Inter", sans-serif;
+     font-size: 16px;
+     color: #0D062D;
+     line-height: 19.36px;
+     margin-right: 30px;
+
+}
+
+.header .profile-text h6 {
+     text-align: right;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 16.94px;
+     color: #787486;
+     margin-right: 28px;
+
+}
+
+.header .profile-image img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+}
+
+.work-info-sec {
+  display: block;
+}
+
+.work-info-main {
+  background: white;
+
+  overflow: hidden; /* Prevents scrollbar from appearing */
+}
+
+.work-info-sec .work-info-text {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  overflow: hidden; /* Prevents overflow within each item */
+}
+
+.work-info-sec .work-info-text img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+ 
+}
+
+.work-info-sec .work-info-text span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Optional: If you want to style the hover effect or spacing further */
+.work-info-main .work-info-text:hover {
+  background-color: #f0f0f0; /* Example hover effect */
+}
+
+.work-info-main .settings-icon {
+  /* Add any specific styling for the settings icon here */
+}
+
+.dashboard-sec {
+     display: flex;
+     justify-content: flex-start;
+   }
+   
+   .dashboard-row {
+     display: flex;  
+     width: 100%;
+     justify-content: space-between; 
+     align-items: center; 
+   }
+   
+   .dashboard-text span {
+     font-weight: 700;
+     font-family: "Nunito", sans-serif;
+     font-size: 30px;
+     line-height: 40.92px;
+   }
+   
+   .dashboard-img {
+     margin-left: auto; 
+   }
+   
+   .setting-icon {
+   
+     width: 30px;
+     height: 30px;
+   }
+ 
+   
+   .dashboard-sec .card-body {
+     display: flex;
+     flex-direction: column;
+   }
+   .dashboard-sec .card .dropdown button{
+    background: #238899;
+    color: white;
+   }
+   
+   .dashboard-sec .card-title-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+  }
+  
+  .dashboard-sec .card-title {
+    margin: 0;
+  }
+  
+  .dashboard-sec .card-title-container .image-andtext {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .dashboard-sec .card-title-container .image-andtext span {
+    margin-left: 8px;
+  }
+  
+   .dashboard-sec
+   /* .card2{
+     width: 733px;
+   } */
+   .dashboard-sec .card .btn button{
+     background: #238899;
+   }
+   .dashboard-sec .card .green-div{
+     width: 20px;
+     height: 20px;
+     background: #238899;
+     margin-left: 20px;
+ 
+   }
+   .dashboard-sec .card .completed{
+    margin-left: 10px;
+   }
+   .dashboard-sec .card .violet-div{
+     width: 20px;
+     height: 20px;
+     background: #625ED7;
+     margin-left: 20px;
+   }
+   .dashboard-sec .card .lightblue-div{
+     width: 20px;
+     height: 20px;
+     background: #39B4F3;
+     margin-left: 20px;
+   }
+   .dashboard-sec .card .red-div{
+     width: 20px;
+     height: 20px;
+     background: #D32C20;
+     margin-left: 20px;
+   }
+   .dashboard-sec .card .red-product{
+     width: 10px;
+     height: 10px;
+     background: #D32C20;
+     /* margin-left: 20px; */
+     border-radius: 50%;
+     margin-top: 8px;
+   }
+   .dashboard-sec .card .orange-product{
+     width: 10px;
+     height: 10px;
+     background: #F3722C;
+     /* margin-left: 20px; */
+     border-radius: 50%;
+     margin-top: 8px;
+   }
+   .dashboard-sec .card .yellow-product{
+     width: 10px;
+     height: 10px;
+     background: #F9C74F;
+     /* margin-left: 20px; */
+     border-radius: 50%;
+     margin-top: 8px;
+   }
+   .dashboard-sec .card .green-product{
+     width: 10px;
+     height: 10px;
+     background: #90BE6D;
+     /* margin-left: 20px; */
+     border-radius: 50%;
+     margin-top: 8px;
+   }
+   .dashboard-sec .card .product1{
+     margin-left: 5px;
+   }
+   .dashboard-sec .cards2{
+     /* height: 420px; */
+     /* background: white; */
+     /* padding: 26px; */
+   }
+  
+
+
+
+    @media (min-width: 768px) {
+    .work-info-main {
+      display: block !important; 
+      min-height: 400px !important;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .work-info-main {
+      display: none; 
+    }
+    .work-info-main.collapse.show {
+      display: block; 
+    }
+  }
+
+@media screen and (min-device-width: 100px) and (max-device-width: 768px) {
+     .header .input-form input {
+          min-width: auto;
+          width: 100%;
+     }
+
+     .header .profile-text h6 {
+          text-align: left;
+     }
+
+     .header .profile-image {
+          /* display: flex;
+       align-items: center; */
+     }
+}
+
+@media only screen and (max-width: 990px) {
+     .header .profile-text h6 {
+          text-align: left;
+     }
+}

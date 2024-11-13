@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.work-info-section {
+
+    display: block;
+    /* overflow: hidden !important; */
+}
+
+.work-info-main {
+    /* min-height: 1000px !important; */
+    background: white;
+}
+
+.work-info-section .work-info-text {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.work-info-section .work-info-text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.work-info-section .work-info-text span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.work-info-section .work-logs .work-logs-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.work-info-section .work-logs .work-logs-content p {
+    margin-right: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+
+}
+
+.work-info-section .work-logs .work-logs-content span {
+    margin-left: 20px;
+
+}
+
+.work-info-section .work-logs .work-logs-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+
+}
+
+.work-info-section .work-logs .work-logs-item p {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.work-info-section .work-logs .work-logs-item span {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.work-info-section .chart .chart-main {
+    background: white;
+    padding: 16px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.work-info-section .chart .chart-main .chart-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-info-section .chart .chart-main h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #1F384C;
+}
+
+.work-info-section .chart .notfication-main {
+    margin-top: 20px;
+    background: #ffff;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.notification-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.notification-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1F384C;
+}
+
+.view-all {
+    font-weight: 400;
+    font-size: 14px;
+    color: #007BFF;
+    cursor: pointer;
+}
+.chart-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    margin-top: 10px;  
+}
+
+.chart-img img {
+    max-width: 100%;  
+    height: auto;   
+}
+
+
+.notification-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.notification-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.notification-img h6 {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 16.39px;
+    margin-top: 5px;
+}
+
+.notification-img h5 {
+    /* font-family: Manrope; */
+    font-size: 10px;
+    line-height: 13.66px;
+    font-weight: 400
+}

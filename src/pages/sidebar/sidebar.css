@@ -1,0 +1,32 @@
+*{
+    margin: 0; padding: 0;
+}
+
+
+.work-info-section {
+
+    display: block;
+    padding-left: 0;
+}
+
+.work-info-main {
+    min-height: 900px;
+    background: white;
+}
+
+.work-info-section .work-info-text {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.work-info-section .work-info-text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.work-info-section .work-info-text span {
+    display: inline-block;
+    vertical-align: middle;
+}
